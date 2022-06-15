@@ -45,3 +45,19 @@
 // console.log(aluno.media(aluno1.notas[0], aluno1.notas[1]));
 
 //--------------------------------------------------------------------------
+
+// Objetos - construtores
+
+var calcMedia = function(){
+    return(this.nota1 + this.nota2) / 2;
+}
+
+var turma = [ {nome:"Pedro", nota1:10, nota2:5, media:calcMedia
+},
+
+
+]
+
+var aluno = turma[0];
+console.log(aluno);
+console.log(aluno.media());
